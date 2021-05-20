@@ -17,6 +17,7 @@
 #
 ################################################################################
 */
+#define _GNU_SOURCE /* SO_BINDTODEVICE */
 #include <arpa/inet.h>
 #include <getopt.h>
 #include <linux/limits.h>
